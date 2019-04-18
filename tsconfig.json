@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+      "lib": [
+        "es2018",
+        "dom",
+        "esnext.asynciterable"
+      ],
+      "outDir": "dist",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "resolveJsonModule": true,
+      "strictBindCallApply": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "es2017",
+      "sourceMap": true,
+      "declaration": true,
+      "strict": true,
+      "skipLibCheck": false
+    },
+    "include": [
+      "index.ts",
+    ],
+    "exclude": [
+      "node_modules/**",
+      "**/*.d.ts"
+    ]
+  }
+  

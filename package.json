@@ -1,0 +1,19 @@
+{
+  "name": "pubsub-strict-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^11.13.5",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.28.1"
+  }
+}
